@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    margin-bottom: 20px;
+    border: none;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+legend {
+    font-size: 1.2em;
+    color: #34495e;
+    padding-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b0c4de; 
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #f0f8ff; 
+}
+
+button {
+    background-color: #3498db; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+
+#cv-output {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cv-content h3 {
+    color: #2c3e50; 
+    border-bottom: 2px solid #3498db; 
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#cv-content p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+#cv-content p strong {
+    color: #3498db; 
+}
